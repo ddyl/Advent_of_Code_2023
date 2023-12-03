@@ -10,3 +10,4 @@ This changed my regex match string that I had formerly:
 To the regex string that I used in the solution:
 - `(?=(\d|one|two|three|four|five|six|seven|eight|nine|ten))`
 
+The lookahead assertion ensures that all overlapping strings are matched.
