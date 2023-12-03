@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "advent_of_code_2023"
+version = "0.1.0"
+description = ""
+authors = ["Daniel Lee"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+day1 = "src.advent_of_code_2023.day_01.solution:main"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^7.4.3"
+nox = "^2023.4.22"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
