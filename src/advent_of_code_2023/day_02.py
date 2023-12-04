@@ -3,7 +3,7 @@ import os
 import re
 
 def possible_games(input):
-    regex_single_game = r"(?=(?::|;) (.*?)(?::|;|$))"
+    regex_single_game = r"(?=(?::|;) (.*?)(?:;|$))"
     regex_color_count = r"(\d*)(?: )(\w*?)(?:,|$)"
 
     # idx_sum will hold the answer to part 1, which is the sum of indexes for possible games given p1_color_counts
